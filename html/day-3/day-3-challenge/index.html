@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/favicon-32x32.png" type="image/x-icon">
+    <title>HTML Media</title>
+</head>
+
+<body>
+    <h1>HTML Media</h1>
+    <!--iFrames-->
+    <div id="iFrames" style="background-color: aqua;">
+        <!--Embed another web page with an iFrame-->
+        <iframe src="https://www.justit.co.uk/" frameborder="0" width="560" height="315"></iframe>
+
+        <!--Embed a google map with an iFrame-->
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.6657407024413!2d-0.28219262301876674!3d51.55602800714923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761181d57a876d%3A0xa64f9f185de8e097!2sWembley%20Stadium!5e0!3m2!1sen!2suk!4v1701875880833!5m2!1sen!2suk"
+            width="560" height="315" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <!--Embed a youtube video-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8EQshxtk-iA?si=zCltnjRNHrCYJkwA"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+        <!--HTML VIdeo-->
+        <div id="video" style="background-color: darkgreen;"></div>
+        <video width="560" height="315" src="html-video.mp4" controls>
+            Your browser doesnt support HTML dideo
+        </video>
+
+        <!--HTML audio-->
+        <div id="audio" style="background-color:darkblue;"></div>
+        <audio controls src="applause.mp3">
+            Your browser doesnt support HTML dideo</audio>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+﻿HTML Day 3 - Challenge:
+
+I would like you to put together the HTML code for a website homepage for an imaginary business. The type of business is completely your choice, it can be a Coffeeshop, a Gym, a Florist whatever you like.
+
+The page must use the appropriate HTML document structure and make use of appropriate HTML elements throughout.
+
+The website must include the following: 
+ 
+ 
+An updated Favicon
+An embedded YouTube video
+An embedded Google Map
+Appropriate use of id's and Classes
+ 
+ 
+If you wish to do so feel free to try and add some basic styling, however, as we haven't covered CSS there is no obligation to do so.
