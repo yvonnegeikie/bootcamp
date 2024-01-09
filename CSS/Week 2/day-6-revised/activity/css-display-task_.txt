@@ -1,0 +1,3 @@
+﻿Open Visual Studio Code and in your workspace, I would like you to create a new index.html file and correctly link a style.css file to it. In the HTML file I would like you to add an element of each display type. A block element, an inline element and an inline-block element.
+
+Using CSS, I would like you to adjust the width and/or height of the inline-block element. I would also like you to try and work out how to hide one of the elements using the display property.

@@ -1,0 +1,8 @@
+header,
+footer {
+    background-color: orange;
+}
+
+.row {
+    margin: 20px auto;
+}

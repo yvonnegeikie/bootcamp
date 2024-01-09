@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Base Styling to differentiate each grid item */
+
+.container div {
+    background-color: crimson;
+    padding: 1em;
+}
+
+.container div:nth-child(odd) {
+    background-color: dodgerblue;
+}
+
+/* CSS GRID CODE BELOW: */
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 150px 320px 320px 150px;
+    gap: 0.5em;
+
+    grid-template-areas:
+        'header header header header'
+        'main main main aside'
+        'main main main section'
+        'footer footer footer footer'
+    ;
+}
+
+.header {
+    grid-area: header;
+}
+
+.main {
+    grid-area: main;
+}
+
+.section {
+    grid-area: section;
+}
+
+.aside {
+    grid-area: aside;
+}
+
+.footer {
+    grid-area: footer;
+}

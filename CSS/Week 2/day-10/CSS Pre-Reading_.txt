@@ -1,0 +1,23 @@
+﻿CSS Pre-Reading:
+
+
+Responsive Design: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design
+ 
+Animations: https://www.w3schools.com/css/css3_animations.asp
+ 
+Transitions: https://www.w3schools.com/css/css3_transitions.asp
+ 
+Transform: https://www.w3schools.com/cssref/css3_pr_transform.php
+ 
+ 
+HTML, CSS, JavaScript Practice Exercises:
+ 
+ 
+https://www.freecodecamp.org/
+
+
+GAMES!! (Yvonne haha) 
+
+
+W3Schools have quizzes to test knowledge 
+Try and replicate/recreate the design of a website I like

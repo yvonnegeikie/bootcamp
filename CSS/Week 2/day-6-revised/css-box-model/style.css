@@ -1,0 +1,19 @@
+* {
+    background-color: pink;
+}
+
+h1 {
+    text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}

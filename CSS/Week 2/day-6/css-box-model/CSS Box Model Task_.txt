@@ -1,0 +1,2 @@
+﻿Working with one of your HTML structures from last week, I would like you work with the properties of the Box-Model in order to appropriately space and layout your elements.
+Experiment with the Box Model in order to familiarise yourself with how each property impacts the element and the spacing around it.

@@ -1,7 +1,0 @@
-﻿Add some CSS styling to either an existing HTML webpage you have worked on, or a new HTML file.
-You must correctly create and link a CSS Stylesheet to your HTML file and apply some CSS Rules to your webpage.
-Your CSS file must include examples of:
-- An element selector
-- A class selector
-- An id selector
-- An imported font

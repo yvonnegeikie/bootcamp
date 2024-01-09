@@ -1,0 +1,23 @@
+h1 {
+    background-color: brown;
+    height: 100px;
+}
+
+span.a {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px orange;
+    background-color: brown;
+}
+
+span.b {
+    display: block;
+    background-color: rebeccapurple;
+
+}
+
+img {
+    height: 200px;
+}

@@ -1,0 +1,17 @@
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    margin: 100px auto;
+    border-radius: 50%;
+    transition-duration: 1s;
+
+
+}
+
+.circle:hover {
+    transform: translate(150px);
+    animation-iteration-count: infinite;
+
+
+}

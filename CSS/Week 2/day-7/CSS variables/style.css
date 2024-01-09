@@ -1,0 +1,17 @@
+/* Declare value in the :root selector */
+
+:root {
+    --darkBrown: var(--darkBrown) --darkBlue: --darkBrown: 60492C --spacing: 10px
+}
+
+article {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkblue;
+    color: darkbrown;
+    padding: var(--spacing);
+    margin: var(--spacing)
+}
+
+#article2 {
+    --darkBlue: var(--darkBlue)
+}

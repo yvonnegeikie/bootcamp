@@ -1,0 +1,3 @@
+﻿Take some time to experiment with media queries in order to get a feel for how they work.
+ 
+Add a mobile and tablet breakpoint to some existing CSS code you have to see how you can impact the styling with media queries.

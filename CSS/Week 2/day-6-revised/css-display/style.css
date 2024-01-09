@@ -1,0 +1,17 @@
+h1 {
+    background-color: palevioletred;
+    height: 100px;
+    width: 100px;
+}
+
+span {
+    background-color: rgb(153, 34, 54);
+    color: white;
+    /* height: 100px;
+    display: inline-block; */
+}
+
+img {
+    height: 200px;
+    /*TO HIDE AN ELEMENT USE display: none; */
+}

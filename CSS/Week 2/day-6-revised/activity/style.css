@@ -1,0 +1,44 @@
+body {
+    background-color: pink;
+}
+
+#main-heading {
+    color: red;
+    text-transform: capitalize;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    color: blue;
+    text-decoration: underline;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+    color: yellow;
+}
+
+.inline {
+    display: inline;
+    display: none;
+}
+
+.inline-block {
+    display: inline-block;
+    width: 50px;
+}
+
+.block {
+    display: block;
+}

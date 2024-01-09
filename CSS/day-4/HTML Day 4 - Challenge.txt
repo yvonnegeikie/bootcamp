@@ -1,5 +1,0 @@
-﻿HTML Day 4 - Challenge:
- 
-Using the landing page structure you put together yesterday, I would like you to refactor the code using Semantic HTML.
- 
-Research Semantic HTML elements in order to build an understanding of how and when they are used before appropriately applying it to the layout that you put together yesterday.

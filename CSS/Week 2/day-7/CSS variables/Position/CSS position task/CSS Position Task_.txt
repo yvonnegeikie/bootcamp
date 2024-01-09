@@ -1,0 +1,8 @@
+﻿CSS Position Task:
+ 
+Using the CSS Position Property, I would like you to put together an example of the following:
+ 
+An element that is fixed to the top of the page when scrolled past.
+ 
+An element that is fixed in the same position of the browser despite where you scroll to in the document.
+Eg. a simple navigation bar and an social media.
