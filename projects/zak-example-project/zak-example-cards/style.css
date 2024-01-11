@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    columns: 2;
+
+}
+
+.card {
+    width: 300px;
+    /* background-color: blueviolet; */
+    margin: 5px;
+    box-shadow: 1px 1px 10px black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    overflow: hidden;
+
+}
+
+.image img {
+
+    width: 100%;
+}
+
+.title,
+.des {
+    text-align: center;
+    margin: 10px 20px;
+}
+
+.des p {
+    padding-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
