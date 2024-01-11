@@ -1,0 +1,91 @@
+.banner {
+    padding: 50px;
+    width: auto;
+    background-color: darkslategrey;
+    background-image: https: //images.pexels.com/photos/19728120/pexels-photo-19728120/free-photo-of-side-view-of-a-woman-with-her-arms-crossed.jpeg?auto=compress&cs=tinysrgb&w=600;
+}
+
+.banner_image img {
+    width: 100%;
+
+}
+
+.image_yvonne img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.nav {
+    width: 100%;
+    padding: 10px;
+
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    color: whitesmoke;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.section_container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 4rem;
+    margin: 3;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font size: 30px;
+    font-family: ;
+    color: whitesmoke;
+    align
+}
+
+
+@-webkit-keyframes kenburns-bottom {
+    0% {
+        -webkit-transform: scale(1) translateY(0);
+        transform: scale(1) translateY(0);
+        -webkit-transform-origin: 50% 84%;
+        transform-origin: 50% 84%;
+    }
+
+    100% {
+        -webkit-transform: scale(1.25) translateY(15px);
+        transform: scale(1.25) translateY(15px);
+        -webkit-transform-origin: bottom;
+        transform-origin: bottom;
+    }
+}
+
+@keyframes kenburns-bottom {
+    0% {
+        -webkit-transform: scale(1) translateY(0);
+        transform: scale(1) translateY(0);
+        -webkit-transform-origin: 50% 84%;
+        transform-origin: 50% 84%;
+    }
+
+    100% {
+        -webkit-transform: scale(1.25) translateY(15px);
+        transform: scale(1.25) translateY(15px);
+        -webkit-transform-origin: bottom;
+        transform-origin: bottom;
+    }
+}
