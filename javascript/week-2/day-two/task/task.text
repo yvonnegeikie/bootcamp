@@ -1,0 +1,21 @@
+DOM and Events to set up:
+
+1.) Click - show and hide menus
+     - Create a button "See Food Menu"/ "See Drink Menu"
+     - Challenge: .innerText so that the button text changes
+
+2.) Mouse over and out - highlight to the user which link they are currently on
+      - will need to change text and background color as minimum
+
+3.) Mouse enter and leave - current openings (work for us)
+      text will become larger when entered and return left 
+
+//Code on all sheets will need to be altered!
+4.) Create a Basic form, the text inputs will change background color and 
+      text color when keypress event activated - make the form relevant to
+      the site.
+
+
+ Think about what we want to target and how we want to achieve this, 
+  you may need to combine multiple methods we have learnt in JS to
+  accomplish the end result.
