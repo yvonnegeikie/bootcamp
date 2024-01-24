@@ -1,3 +1,4 @@
+//Task 1 
 let food = document.getElementById("food");
 let foodMenu = document.getElementById("foodMenu");
 let drinkMenu = document.getElementById("drinkMenu");
@@ -5,7 +6,6 @@ let drink = document.getElementById("drink");
 let button = document.getElementById("button");
 
 button.addEventListener("click", () => {
-    console.log("click");
     if (food.style.display === "block") {
         food.style.display = "none"
         foodMenu.style.display = "none"
@@ -23,22 +23,37 @@ button.addEventListener("click", () => {
 
 });
 
-//Task 2 - TIm 
-let links = document.querySelectorAll("nav a");// create an array 
+//Task 3
+let vacancy = document.getElementById("vacancy");
+console.log(vacancy);
+vacancy.addEventListener("mouseenter", (event) => {
+    console.log(event.target);
+    vacancy.style.fontSize = "60px";
+    vacancy.style.marginLeft = "-10px";
+})
+vacancy.addEventListener("mouseleave", (event) => {
+    vacancy.style.fontSize = "";
+    vacancy.style.marginLeft = "";
+})
 
 
-// for (let link in links) {
-//     links[link].addEventListener("mouseover", function run() {
-//         links[link].style.backgroundcolor = "pink"
-//         links[link].style.fontFamily = "Impact"
-//     }
-//     )
-// }
 
-// for (let link in links) {
-//     links[link].addEventListener("mouseout", function run() {
-//         links[link].style.backgroundcolor = "White"
-//         links[link].style.fontFamily = "fantasy"
-//     }
-//     )
-// }
+//Task 2
+let links = document.getElementsByClassName("link");
+
+for (let link in links) {
+    links[link].addEventListener("mouseover", (event) => {
+        links[link].style.color = "pink";
+        links[link].style.backgroundColor = "blue";
+        links[link].style.fontWeight = "bold";
+    })
+
+    links[link].addEventListener("mouseout", (event) => {
+        links[link].style.color = "";
+        links[link].style.backgroundColor = "";
+        links[link].style.fontWeight = "";
+    })
+
+}
+
+
