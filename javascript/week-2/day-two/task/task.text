@@ -19,3 +19,10 @@ DOM and Events to set up:
  Think about what we want to target and how we want to achieve this, 
   you may need to combine multiple methods we have learnt in JS to
   accomplish the end result.
+
+
+
+Extension Task:
+Build a programme that causes an animation to run when the user clicks on the play button.
+ 
+The animation will cause a box to move around in the shape of a square with its color changing when it reaches a corner.

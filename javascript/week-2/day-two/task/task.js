@@ -25,7 +25,6 @@ button.addEventListener("click", () => {
 
 //Task 3
 let vacancy = document.getElementById("vacancy");
-console.log(vacancy);
 vacancy.addEventListener("mouseenter", (event) => {
     console.log(event.target);
     vacancy.style.fontSize = "60px";
@@ -35,6 +34,16 @@ vacancy.addEventListener("mouseleave", (event) => {
     vacancy.style.fontSize = "";
     vacancy.style.marginLeft = "";
 })
+
+
+//Task 4
+let customerInfo = document.getElementById("customerInfo");
+customerInfo.addEventListener("keypress", (event) => {
+    customerInfo.style.backgroundColor = "blue";
+    customerInfo.style.color = "yellow";
+})
+
+
 
 
 
@@ -55,5 +64,3 @@ for (let link in links) {
     })
 
 }
-
-
