@@ -1,0 +1,7 @@
+Task//
+ 
+On your HTML page create a div with an id name of "date"
+ 
+Obtain this div in a variable called "divDate" in your JS file
+ 
+Create a new Date in JS and store it as "d"
