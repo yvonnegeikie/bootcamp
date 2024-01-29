@@ -1,3 +1,23 @@
 body {
     background: red;
 }
+
+header {
+    display: flex;
+}
+
+nav {
+    flex: 1;
+}
+
+#LogoNameContainer {
+    display: flex;
+    flex: 1;
+
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-evenly;
+
+}
