@@ -21,3 +21,19 @@ nav {
     justify-content: space-evenly;
 
 }
+
+
+
+main {
+    display: flex;
+}
+
+#home {
+    display: flex;
+    flex: 1;
+}
+
+#ronnieImage {
+    display: flex;
+    flex: 1;
+}
