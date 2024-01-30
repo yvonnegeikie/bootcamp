@@ -37,11 +37,11 @@ const instruments = {
 // console.log(instruments.guitar.title)
 
 //instruments function.
-const selectionInstrument = (instrument) => {
+const selectInstrument = (instrument) => {
+    console.log(instruments[instrument]);
     return instruments[instrument];
 }
-const guitarDetails = selectionInstrument("guitar");
-console.log(guitarDetails);
+const guitarDetails = selectInstrument("guitar");
 
-const drumsDetails = selectionInstrument("drums");
-console.log(drumsDetails);
+const drumsDetails = selectInstrument("drums");
+
