@@ -43,3 +43,35 @@ main {
     display: flex;
     flex: 1;
 }
+
+#instruments {
+    display: flex;
+    border: solid black;
+}
+
+#buttonContainer {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    row-gap: ;
+    border: solid black;
+    padding-top: 20px;
+
+}
+
+#textContainer {
+    flex: 5;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    border: solid black;
+    padding-top: 40px;
+}
+
+
+#imageContainer {
+    flex: 4;
+    border: solid black;
+    padding: 100px;
+    justify-content: center;
+}
