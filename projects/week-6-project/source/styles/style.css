@@ -4,6 +4,7 @@ body {
 
 header {
     display: flex;
+
 }
 
 nav {
@@ -13,13 +14,17 @@ nav {
 #LogoNameContainer {
     display: flex;
     flex: 1;
+}
 
+#artistName {
+    margin-left: 20px;
 }
 
 #navigation {
     display: flex;
     justify-content: space-evenly;
-
+    list-style: none;
+    text text-decoration: none;
 }
 
 
@@ -31,6 +36,7 @@ main {
 #home {
     display: flex;
     flex: 1;
+
 }
 
 #ronnieImage {
