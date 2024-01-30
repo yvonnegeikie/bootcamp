@@ -1,3 +1,4 @@
+//modal
 const modal = document.getElementById("myModal");
 const button = document.getElementById("modalButton");
 const span = document.getElementsByClassName("close")[0];
@@ -14,6 +15,7 @@ span.onclick = function () {
     modal.style.display = "none";
 }
 
+//instruments object. 
 const instruments = {
     "guitar": {
         "title": "guitar title",
@@ -31,5 +33,15 @@ const instruments = {
         "image": "https://placehold.co/600x400/000000/ff0"
     },
 }
-console.log(instruments)
-console.log(instruments.guitar.title)
+// console.log(instruments)
+// console.log(instruments.guitar.title)
+
+//instruments function.
+const selectionInstrument = (instrument) => {
+    return instruments[instrument];
+}
+const guitarDetails = selectionInstrument("guitar");
+console.log(guitarDetails);
+
+const drumsDetails = selectionInstrument("drums");
+console.log(drumsDetails);
