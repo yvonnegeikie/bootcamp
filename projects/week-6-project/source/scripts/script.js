@@ -24,8 +24,8 @@ const instruments = {
     },
     "drums": {
         "title": "drums title",
-        "descriptiom": "drums description",
-        "image": "https://placehold.co/600x400/000000/000"
+        "description": "drums description",
+        "image": "https://placehold.co/600x400/000000/F00"
     },
     "keyboard": {
         "title": "keyboard title",
@@ -36,12 +36,36 @@ const instruments = {
 // console.log(instruments)
 // console.log(instruments.guitar.title)
 
+const instrumentTitle = document.getElementById('instrumentTitle');
+console.log(instrumentTitle);
+const instrumentDescription = document.getElementById('instrumentDescription');
+const instrumentImage = document.getElementById('instrumentImage');
+// set new const instrumentDescription to the HTML element ID 
+//'instrumentDescription'
+
+
 //instruments function.
 const selectInstrument = (instrument) => {
-    console.log(instruments[instrument]);
+
+    instrumentTitle.innerText = instruments[instrument].title;
+    instrumentDescription.innerText = instruments[instrument].description;
+    instrumentImage.src = instruments[instrument].image;
+    // set the inner text of instrumentTitle
+    // to instruments[instrument].title
+
+    // set the inner text of instrumentDescription
+    // to instruments[instrument].description
+
+    // set the image source of instrumentImage
+    // to instruments[instrument].image
+
+    console.log(instruments[instrument].title);
     return instruments[instrument];
 }
-const guitarDetails = selectInstrument("guitar");
+// const guitarDetails = selectInstrument("guitar");
+// const drumsDetails = selectInstrument("drums");
+// const keyboardDetails = selectInstrument("keyboard");
 
-const drumsDetails = selectInstrument("drums");
+
+
 
