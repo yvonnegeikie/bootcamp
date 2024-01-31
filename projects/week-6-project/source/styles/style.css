@@ -106,6 +106,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    margin-top: 10px;
 }
 
 .ticket-link {
@@ -137,4 +138,9 @@ footer {
 p {
     margin: 0;
     padding: 0;
+}
+
+#listen {
+    display: flex;
+    height: 200px;
 }
