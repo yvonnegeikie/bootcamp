@@ -108,21 +108,33 @@ footer {
     padding: 10px;
 }
 
-.ticket-container {
+.ticket-link {
     padding: 10px;
     background: black;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+    border: solid transparent 2px;
 }
 
-.ticket-container:hover {
+.ticket-link:hover {
     background: white;
     color: black;
     text-decoration: underline;
-    border: solid black;
+    border: solid 2px black;
 }
 
 .map-link {
     text-decoration: none;
+    color: black;
+}
+
+.map-link:hover {
+    text-decoration: bold;
+    color: #E8251E;
+}
+
+p {
+    margin: 0;
+    padding: 0;
 }
