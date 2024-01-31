@@ -1,5 +1,5 @@
 body {
-    background: red;
+    background: rgb(232, 196, 196);
 }
 
 header {
@@ -84,6 +84,7 @@ main {
 #tourDates {
     border: solid black;
     margin-top: 10px;
+    padding: 10px;
 }
 
 #listen {
@@ -96,12 +97,32 @@ footer {
     margin-top: 10px;
 }
 
-#date-list {
-    display: flex;
+#tourDatelist {
+    margin: 0;
+    padding: 0;
 }
 
-#date-container {
-    flex: 1;
-    flex-direction: column;
-    display: ;
+.date-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.ticket-container {
+    padding: 10px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.ticket-container:hover {
+    background: white;
+    color: black;
+    text-decoration: underline;
+    border: solid black;
+}
+
+.map-link {
+    text-decoration: none;
 }
