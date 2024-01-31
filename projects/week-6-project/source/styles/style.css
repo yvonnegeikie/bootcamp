@@ -95,3 +95,13 @@ footer {
     border: solid black;
     margin-top: 10px;
 }
+
+#date-list {
+    display: flex;
+}
+
+#date-container {
+    flex: 1;
+    flex-direction: column;
+    display: ;
+}
