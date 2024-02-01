@@ -9,6 +9,15 @@ header {
 
 }
 
+#ronnieLogo {
+    width: 60px;
+    height: 75px;
+}
+
+#ronnieHeadshot {
+    width: 350px;
+}
+
 nav {
     flex: 1;
 }
@@ -143,4 +152,23 @@ p {
 #listen {
     display: flex;
     height: 200px;
+}
+
+#emailRonnie {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+#emailRonnie:hover {
+    background: white;
+    color: black;
+    text-decoration: underline;
+    border: solid 2px black;
+}
+
+.contact {
+    display: row;
+    justify-content: space-evenly;
+
 }

@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<header>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="source/styles/style.css">
     <script src="https://kit.fontawesome.com/f7d555742b.js" crossorigin="anonymous"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/source/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/source/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/source/images/favicon-16x16.png">
+    <link rel="manifest" href="/source/images/site.webmanifest">
+
     <title>Ronnie Yeeha</title>
-</header>
+</head>
 
 <body>
     <header>
         <div id="LogoNameContainer">
-            <img src="https://placehold.co/50x50" alt="Image of Ronnie">
+            <img id="ronnieLogo" src="/source/images/ronnie-logo.svg" alt="Image of Ronnie">
             <h2 id="artistName">Ronnie Yeeha</h2>
         </div>
         <nav>
             <ul id="navigation">
-                <li><a href="#home">Home</a></li>
+                <li><a href="#home">About</a></li>
                 <li><a href="#instruments">Instruments</a></li>
                 <li><a href="#tourDates">Tour dates</a></li>
                 <li><a href="#listen">Listen</a></li>
@@ -28,17 +34,18 @@
 
     <main id="home">
         <div>
-            <h2 class="section-heading">Bio</h2>
-            <p>Ronnie Yeeha is the solo project of Australian-raised, Montreal-based songwriter Rosemary Cambell.</p>
+            <h2 class="section-heading">About Ronnie</h2>
+            <p>Ronnie Yeeha is an Australian-raised songwriter based in Montréal.</p>
             <br>
-            <p>Ronnie writes about the familiar turn of everyday life, from heart-to-heart crushes and summer rides to
-                homesickness and mundane routines, all while feeling good.</p>
+            <p>Ronnie's project connects with the familiar hum of everyday life, from heart-to-heart crushes and summer
+                rides, to homesickness and mundane routines. It's the arrival back home after a long haul flight, it's
+                crashing your bike but landing on your feet, and Ronnie is ready to yeeeehaw!</p>
             <br>
             <a href="https://www.youtube.com/@ronnieyeehaw">Ronnie's YouTube channel</a>
         </div>
 
         <div id="ronnieImage">
-            <img src="https://placehold.co/400x200" alt="Image of Ronnie">
+            <img id="ronnieHeadshot" src="/source/images/ronnie-headshot.jpg" alt="Image of Ronnie">
         </div>
     </main>
 
@@ -141,8 +148,7 @@
 
     <footer class="contact">
         <h2>Contact</h2>
-        <button>Sign up</button>
-        <span>&copy;Yvonne Geikie</span>
+        <a id="emailRonnie" href="mailto:ronnieyeeha@gmail.com?subject Hello Ronnie">@ronnie</a>
 
         <a href="https://www.youtube.com/@ronnieyeehaw" target="_blank"></a><i class="fa-brands fa-youtube"></i>
         <a
@@ -151,6 +157,12 @@
         <a href="https://www.instagram.com/ronnie_yeehaw/?igsh=MXdsbjljc3FvNWdwNw"><i
                 class="fa-brands fa-instagram"></i></a>
     </footer>
+
+    <footer>
+        <span>&copy;Yvonne Geikie</span>
+    </footer>
+
+
     <button id="modalButton">Watch video</button>
     <div id="myModal" class="modal"></div>
     <div class="modal-content">
