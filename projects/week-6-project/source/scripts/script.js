@@ -1,19 +1,3 @@
-//modal
-const modal = document.getElementById("myModal");
-const button = document.getElementById("modalButton");
-const span = document.getElementsByClassName("close")[0];
-
-button.onclick = function () {
-    modal.style.display = "block";
-}
-
-span.onclick = function () {
-    modal.style.display = "none";
-}
-
-span.onclick = function () {
-    modal.style.display = "none";
-}
 
 //instruments object. 
 const instruments = {
@@ -66,6 +50,20 @@ const selectInstrument = (instrument) => {
 // const drumsDetails = selectInstrument("drums");
 // const keyboardDetails = selectInstrument("keyboard");
 
-
+//Modal for video 
+const modal = document.getElementById("myModal");
+const button = document.getElementById("modalButton");
+let span = document.getElementsByClassName("close")[0];
+button.onclick = function () {
+    modal.style.display = "block";
+}
+span.onclick = function () {
+    modal.style.display = "none";
+}
+window.onclick = function (event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
 
 
