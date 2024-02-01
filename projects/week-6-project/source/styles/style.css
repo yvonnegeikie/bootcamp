@@ -1,11 +1,12 @@
 body {
-    background: rgb(232, 196, 196);
+    background: #D96D45;
 }
 
 header {
     display: flex;
     border: solid black;
     margin-top: 10px;
+    background-color: #E1D3B6;
 
 }
 
@@ -44,6 +45,7 @@ main {
     display: flex;
     border: solid black;
     margin-top: 10px;
+    background-color: #E1D3B6;
 }
 
 #home {
@@ -61,6 +63,12 @@ main {
     display: flex;
     border: solid black;
     margin-top: 10px;
+    background-color: #E1D3B6;
+}
+
+#instrumentImage {
+    width: 200px;
+    height: 300px;
 }
 
 #buttonContainer {
@@ -93,11 +101,13 @@ main {
     border: solid black;
     margin-top: 10px;
     padding: 10px;
+    background-color: #E1D3B6;
 }
 
 #listen {
     border: solid black;
     margin-top: 10px;
+    background-color: #E1D3B6;
 }
 
 footer {
@@ -169,5 +179,5 @@ p {
 .contact {
     display: row;
     justify-content: space-evenly;
-
+    background-color: #E1D3B6;
 }
