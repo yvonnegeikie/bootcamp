@@ -35,7 +35,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    text text-decoration: none;
+    text-decoration: none;
 }
 
 
@@ -67,7 +67,6 @@ main {
     flex: 1;
     flex-direction: column;
     display: flex;
-    row-gap: ;
     border: solid black;
     padding-top: 20px;
 
