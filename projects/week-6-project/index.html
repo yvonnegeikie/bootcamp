@@ -42,35 +42,21 @@
                 rides, to homesickness and mundane routines. It's the arrival back home after a long haul flight, it's
                 crashing your bike but landing on your feet, and Ronnie is ready to yeeeehaw!</p>
             <br>
-            <a href="https://www.youtube.com/@ronnieyeehaw">Ronnie's YouTube channel</a>
+            <p>Ronnie has just recorded 'Caffien Anxiety</p>
+            <br>
+            <button id="modalButton">Watch video</button>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <video src="/source/videos/caffeine720p.mp4" width="300" height="200" controls></video>
+                </div>
+            </div>
         </div>
 
         <div id="ronnieImage">
             <img id="ronnieHeadshot" src="/source/images/ronnie-headshot.jpg" alt="Image of Ronnie">
         </div>
     </main>
-
-    <section id="instruments">
-        <div id="buttonContainer">
-            <button onclick="selectInstrument('guitar')">Guitar</button>
-            <button onclick="selectInstrument('drums')">Drums</button>
-            <button onclick="selectInstrument('keyboard')">Bass</button>
-        </div>
-        <div id="textContainer">
-            <div class="row">
-                <div class="col">
-                    <h2 id="instrumentTitle"></h2>
-                </div>
-                <div class="col">
-                    <p id="instrumentDescription"></p>
-                </div>
-            </div>
-        </div>
-
-        <div id="imageContainer">
-            <img id="instrumentImage">
-        </div>
-    </section>
 
     <section id="tourDates">
         <h2 class="section-heading">Tour</h2>
@@ -161,21 +147,33 @@
                 class="fa-brands fa-instagram"></i></a>
     </footer>
 
+    <section id="instruments">
+        <div id="buttonContainer">
+            <button onclick="selectInstrument('guitar')">Guitar</button>
+            <button onclick="selectInstrument('drums')">Drums</button>
+            <button onclick="selectInstrument('keyboard')">Bass</button>
+        </div>
+        <div id="textContainer">
+            <div class="row">
+                <div class="col">
+                    <h2 id="instrumentTitle"></h2>
+                </div>
+                <div class="col">
+                    <p id="instrumentDescription"></p>
+                </div>
+            </div>
+        </div>
+
+        <div id="imageContainer">
+            <img id="instrumentImage">
+        </div>
+    </section>
+
     <footer>
         <span>&copy;Yvonne Geikie</span>
     </footer>
 
-    <button id="modalButton">Watch video</button>
-    <div id="myModal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <video src="/source/videos/caffeine720p.mp4" width="300" height="200" controls></video>
-        </div>
-    </div>
-
-
     <script src="source/scripts/script.js"></script>
-
 </body>
 
 </html>
