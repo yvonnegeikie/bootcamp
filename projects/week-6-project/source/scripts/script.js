@@ -2,19 +2,19 @@
 //instruments object. 
 const instruments = {
     "guitar": {
-        "title": "guitar title",
-        "description": "guitar description",
-        "image": "https://placehold.co/600x400/000000/FFF"
+        "title": "Guitar",
+        "description": "In the dusty attic of Ronnie’s great aunt, nestled amongst cobwebs and forgotten dreams, lay Clementine, an acoustic guitar with a heart full of forgotten melodies. Crafted from the finest mahogany, her wood gleamed in the dim light, whispering tales of smoky jazz bars and moonlit serenades. ",
+        "image": "/source/images/ronnie-guitar.jpg"
     },
     "drums": {
-        "title": "drums title",
-        "description": "drums description",
-        "image": "https://placehold.co/600x400/000000/F00"
+        "title": "Drums",
+        "description": "Thumper the drumkit came to Ronnie on ‘loan’ after Ronnie’s friend decided to move back home to Korea. Ronnie didnt know much Korean prior to jamming with Thumper but has had to learn quickly!",
+        "image": "/source/images/ronnie-drums.jpg"
     },
     "keyboard": {
-        "title": "keyboard title",
-        "description": "keyboard description",
-        "image": "https://placehold.co/600x400/000000/ff0"
+        "title": "Bass",
+        "description": "Ronnie found Bruno in the dimly lit corner of a dusty pawn shop, nestled between a chipped violin and a tarnished trumpet. His strings, once vibrant red, were now faded, his body bore the nicks and scratches of countless journeys. Yet, beneath the wear and tear, Bruno thrummed with a quiet melody, waiting for the right touch to awaken it.",
+        "image": "/source/images/ronnie-bass.jpg"
     },
 }
 // console.log(instruments)
@@ -46,7 +46,7 @@ const selectInstrument = (instrument) => {
     console.log(instruments[instrument].title);
     return instruments[instrument];
 }
-// const guitarDetails = selectInstrument("guitar");
+selectInstrument("guitar");
 // const drumsDetails = selectInstrument("drums");
 // const keyboardDetails = selectInstrument("keyboard");
 

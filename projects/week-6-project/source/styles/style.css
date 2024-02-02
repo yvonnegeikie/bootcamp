@@ -1,14 +1,21 @@
 body {
     background: #D96D45;
+    font-family: ;
 }
 
 header {
     display: flex;
-    border: solid black;
     margin-top: 10px;
     background-color: #E1D3B6;
 
 }
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
 
 #ronnieLogo {
     width: 60px;
@@ -29,7 +36,7 @@ nav {
 }
 
 #artistName {
-    margin-left: 20px;
+    margin-left: 300px;
 }
 
 #navigation {
@@ -39,13 +46,16 @@ nav {
     text-decoration: none;
 }
 
+.nav-list-items {
+    text-decoration: none;
+    color: black;
+}
 
 
 main {
     display: flex;
-    border: solid black;
     margin-top: 10px;
-    background-color: #E1D3B6;
+    background-color: #FFDFB7;
 }
 
 #home {
@@ -61,7 +71,6 @@ main {
 
 #instruments {
     display: flex;
-    border: solid black;
     margin-top: 10px;
     background-color: #E1D3B6;
 }
@@ -75,9 +84,7 @@ main {
     flex: 1;
     flex-direction: column;
     display: flex;
-    border: solid black;
     padding-top: 20px;
-
 }
 
 #textContainer {
@@ -85,39 +92,68 @@ main {
     justify-content: center;
     display: flex;
     flex-direction: row;
-    border: solid black;
     padding-top: 40px;
 }
 
 
 #imageContainer {
     flex: 4;
-    border: solid black;
     padding: 100px;
     justify-content: center;
 }
 
 #tourDates {
-    border: solid black;
     margin-top: 10px;
     padding: 10px;
-    background-color: #E1D3B6;
+    background-color: #FFDFB7;
 }
 
 #listen {
-    border: solid black;
     margin-top: 10px;
     background-color: #E1D3B6;
 }
 
+#mediaRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.video-container {
+    flex: 1;
+    text-align: center;
+}
+
+.audio-container {
+    flex: 1;
+    text-align: center;
+}
+
+
+
 footer {
-    border: solid black;
     margin-top: 10px;
+    background-color: #FFDFB7;
 }
 
 #tourDatelist {
     margin: 0;
     padding: 0;
+    text-align: left;
+}
+
+.date-container {
+    text-align: left;
+    flex: 1;
+}
+
+.location-container {
+    text-align: left;
+    flex: 1;
+}
+
+.map-container {
+    text-align: left;
+    flex: 1;
 }
 
 .date-list {
@@ -146,6 +182,8 @@ footer {
 .map-link {
     text-decoration: none;
     color: black;
+    text-align: left;
+    font-weight: bold;
 }
 
 .map-link:hover {
@@ -156,11 +194,6 @@ footer {
 p {
     margin: 0;
     padding: 0;
-}
-
-#listen {
-    display: flex;
-    height: 200px;
 }
 
 #emailRonnie {

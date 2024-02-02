@@ -11,7 +11,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/source/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/source/images/favicon-16x16.png">
     <link rel="manifest" href="/source/images/site.webmanifest">
-
+    <meta name="description"
+        content="Ronnie Yeeha/Ronnie Yeehaw is an Australian raised singer songwriter artist based in Montreal Canada.">
     <title>Ronnie Yeeha</title>
 </head>
 
@@ -23,18 +24,18 @@
         </div>
         <nav>
             <ul id="navigation">
-                <li><a href="#home">About</a></li>
-                <li><a href="#instruments">Instruments</a></li>
-                <li><a href="#tourDates">Tour dates</a></li>
-                <li><a href="#listen">Listen</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a class="nav-list-items" href="#home">About</a></li>
+                <li><a class="nav-list-items" href="#instruments">Instruments</a></li>
+                <li><a class="nav-list-items" href="#tourDates">Tour dates</a></li>
+                <li><a class="nav-list-items" href="#listen">Listen</a></li>
+                <li><a class="nav-list-items" href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main id="home">
         <div>
-            <h2 class="section-heading">About Ronnie</h2>
+            <h2 class="section-heading"></h2>
             <p>Ronnie Yeeha is an Australian-raised songwriter based in Montréal.</p>
             <br>
             <p>Ronnie's project connects with the familiar hum of everyday life, from heart-to-heart crushes and summer
@@ -53,21 +54,21 @@
         <div id="buttonContainer">
             <button onclick="selectInstrument('guitar')">Guitar</button>
             <button onclick="selectInstrument('drums')">Drums</button>
-            <button onclick="selectInstrument('keyboard')">Keyboard</button>
+            <button onclick="selectInstrument('keyboard')">Bass</button>
         </div>
         <div id="textContainer">
             <div class="row">
                 <div class="col">
-                    <h2 id="instrumentTitle">Title</h2>
+                    <h2 id="instrumentTitle"></h2>
                 </div>
                 <div class="col">
-                    <p id="instrumentDescription">Description</p>
+                    <p id="instrumentDescription"></p>
                 </div>
             </div>
         </div>
 
         <div id="imageContainer">
-            <img id="instrumentImage" src="/source/images/ronnie-in-studio.jpg" alt="Ronnie in the studio.">
+            <img id="instrumentImage">
         </div>
     </section>
 
@@ -126,29 +127,25 @@
 
     <section id="listen">
         <h2 class="section-heading">Listen</h2>
-        <div>
-            <p>Foolish</p>
-        </div>
-        <div>
-            <audio class="audio-file" controls src="/source/audio/foolish.mp3"></audio>
-        </div>
-        <div>
-            <p>Bass warm up</p>
-        </div>
-        <div>
-            <video width="300" height="200" controls>
-                <source src="/source/videos/ronnie-tuning-bass.mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
-        <div>
-            <p>Guitar warm up</p>
-        </div>
-        <div>
-            <video width="300" height="200" controls>
-                <source src="/source/videos/ronnie-tuning-guitar.mp4">
-                Your browser does not support the video tag.
-            </video>
+        <div id="mediaRow">
+            <div class="audio-container">
+                <p>Foolish</p>
+                <audio class="audio-file" controls src="/source/audio/foolish.mp3"></audio>
+            </div>
+            <div class="video-container">
+                <p>Bass warm up</p>
+                <video width="300" height="200" controls>
+                    <source src="/source/videos/ronnie-tuning-bass.mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="video-container">
+                <p>Guitar warm up</p>
+                <video width="300" height="200" controls>
+                    <source src="/source/videos/ronnie-tuning-guitar.mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
         </div>
     </section>
 
