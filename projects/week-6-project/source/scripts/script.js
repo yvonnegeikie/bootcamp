@@ -50,6 +50,24 @@ selectInstrument("guitar");
 // const drumsDetails = selectInstrument("drums");
 // const keyboardDetails = selectInstrument("keyboard");
 
+
+//Add Active Class to buttons 
+const buttons = document.querySelectorAll('.button');
+
+buttons.forEach(button => {
+    button.addEventListener('click', handleClick);
+});
+
+function handleClick(e) {
+    // Remove active class from all buttons:
+    buttons.forEach(button => button.classList.remove('active'));
+
+    // Add active class to the clicked button:
+    e.target.classList.add('active');
+}
+
+
+
 //Modal for video 
 const modal = document.getElementById("myModal");
 const button = document.getElementById("modalButton");

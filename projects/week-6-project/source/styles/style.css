@@ -87,6 +87,17 @@ main {
     padding-top: 20px;
 }
 
+.button {
+    /* Default button styles */
+}
+
+.button.active {
+    /* Styles for the active button */
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
+
 #textContainer {
     flex: 5;
     justify-content: center;
