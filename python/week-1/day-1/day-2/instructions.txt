@@ -1,0 +1,4 @@
+assignment = read only
+comparison = read only 
+arithmetic = complete tasks
+logical = run code in your python file
