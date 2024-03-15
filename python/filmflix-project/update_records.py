@@ -13,8 +13,8 @@ def update_record():
         if row == None:
             print(f"No record with the filmID {filmID} exists ")
         else:
-            field_name = input("Enter the field (filmID or title or yearReleased or rating or duration or genre) ").title()
-            if field_name not in ["filmID", "title", "yearReleased", "rating", "duration", "genre"]:
+            field_name = input("Enter the field (filmID or title or yearReleased or rating or duration or genre) ").lower()
+            if field_name not in ["filmid", "title", "yearreleased", "rating", "duration", "genre"]:
                 print(f"Field {field_name} is not a field name in the table")
 
             else:

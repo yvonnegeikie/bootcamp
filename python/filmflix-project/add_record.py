@@ -6,7 +6,7 @@ def insert_record():
         dbCon, dbCursor = db_access()
         
         # create a variable for each field
-        filmID = input("Enter filmID: ")
+        # filmID = input("Enter filmID: ")
         title = input("Enter film title: ")
         yearReleased = input("Enter year released: ")
         rating = input("Enter film rating: ")
@@ -14,10 +14,10 @@ def insert_record():
         genre = input("Enter film genre: ")
  
         # create a sql statement to insert data from the respective variables song_title, song_artist, song_genre
-        dbCursor.execute("INSERT INTO filmID VALUES(NULL,?,?,?,?,?)",(title,yearReleased,rating,duration,genre))
+        dbCursor.execute("INSERT INTO tblFilms VALUES(NULL,?,?,?,?,?)",(title,yearReleased,rating,duration,genre))
     
         dbCon.commit() # permanently write the record/data to the table in the database
-        print(f"{filmID} inserted in the tblfilms table")
+        print(f"{title} inserted in the tblFilms table")
     except sql.OperationalError as e:
         print(f"Failed because: {e}")
    

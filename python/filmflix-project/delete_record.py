@@ -1,3 +1,4 @@
+from connect import *
 def delete_record():
     try:
         dbCon, dbCursor = db_access()
