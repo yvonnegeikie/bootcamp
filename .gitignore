@@ -1,0 +1,5 @@
+*.exe
+Lib
+*.pyc
+*.log
+__pycache__
