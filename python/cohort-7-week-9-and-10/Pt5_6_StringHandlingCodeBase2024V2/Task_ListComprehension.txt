@@ -1,0 +1,20 @@
+Code for tasks below are in the listComprehension.py file
+Use the file listComprehension.py as a reference to supoort you completing the task below
+
+# Task 1:
+Slice list aList from 0 - 5 and bList from 0 - 4 and combine the sliced items as a new list
+# Task 2 :
+Sort and print the items in the commonNums variable in ascending oe descending order
+
+Extension Task:
+# Task 3:
+Create two lists with at least two/three similar names from both lists.
+# Find the common names from both lists and put them in a a new list called 'commonNames' List
+# Use the input function and then the if statement to search the commonNames list for a specific name
+# print out any name(s) found from your search
+
+
+"Further reading on List Comprehension"
+# https://docs.python.org/3/tutorial/datastructures.html
+# https://docs.python.org/3/tutorial/datastructures.html#using-lists-as-stacks
+# https://docs.python.org/3/library/functions.html#zip

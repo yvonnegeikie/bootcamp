@@ -1,0 +1,44 @@
+"Make"
+"To Do Tasks:
+
+Task 1:
+Create a program (.py file) that uses a for loop to iterate through the letters in your name"
+.. Refer to the 1_forLoop1.py python file if you need to.
+
+
+"Further reading on python for statements"
+# https://docs.python.org/3/tutorial/controlflow.html?highlight=loop#for-statements
+# https://www.w3schools.com/python/ref_keyword_for.asp
+
+
+"Modify/Make"
+
+"Task 2: 
+Create a program (.py file) that uses a for loop to loop through items in a list(for example it could be a list of countries )"
+.. Refer to the 2_forLoop2.py python file if you need to.
+
+*most challanging
+"Task 3: 
+Create a program (.py file) that uses a for loop to start count from 1 and ends at 20 "
+.. Refer to the 2_forLoop3.py python file additional notes section if you need to. 
+
+
+"Task 4:
+Create a program that uses a for loop to start count from 1, and increment/increase(step) of 5, and ends/stop at 30"
+.. Refer to the 2_forLoop3.py python file additional notes section if you need to.
+
+
+"Task 5:
+Modify the code you produced in task 3 to count down in steps of 5 (from a high number(30) to a low number greater or equal to 1)"
+.. Refer to the 2_forLoop3.py python file additional notes section if you need to.
+
+
+"Further reading on python for statements"
+# https://docs.python.org/3/tutorial/controlflow.html?highlight=loop#for-statements
+
+
+
+
+
+
+

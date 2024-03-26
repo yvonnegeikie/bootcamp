@@ -1,0 +1,22 @@
+"Modify/Make"
+
+Note: files for you to review are in the 3_Practice files folder
+To Do:
+
+Task 1:
+--  Review the files in this folder 
+Task 2:
+--  Reasearch some of the concept use like:
+    -- outer and inner function(a function within a function)
+    -- default parameter value 
+    -- overwrite default parameter value in the argument
+    -- Constructs: Args and kwargs(arguments and keyword arguments)
+
+Note **** : *args (Arbitrary Positional Arguments) and **kwargs (Arbitrary Keyword Arguments) can prove very 
+useful when you want to create more flexible and generic functions that can handle different input 
+
+Further reading on function
+https://www.programiz.com/python-programming/function
+
+Stretch and challenge: complete the function exercises in the link provided below.
+https://www.practicepython.org/exercise/2014/12/27/24-draw-a-game-board.html

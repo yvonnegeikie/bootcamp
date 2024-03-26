@@ -1,0 +1,17 @@
+"Make"
+"To Do Tasks:
+
+Task 1: 
+1. Explain and comment as many lines to demonstrate understanding in the match case code block in the python file matchCase.py
+
+Task 2:
+2. Use the example in the python file matchCase.py to create a match case for the days in a week.
+The program must display a suitable message for each day in the week
+
+
+https://geekpython.in/match-case-in-python
+https://docs.python.org/3/whatsnew/3.10.html
+
+
+
+

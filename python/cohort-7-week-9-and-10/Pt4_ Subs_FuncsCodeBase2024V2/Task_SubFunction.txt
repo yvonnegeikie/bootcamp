@@ -1,0 +1,23 @@
+"Modify/Make"
+
+Note: files for the tasks below are in the 1_function folder
+To Do:
+
+Task 1:
+--  In the funcEx1.py file, modify the code in the userName function to use a return statement
+
+Task 2:
+--  In the funcEx1.py file, modify the code in the userName function, modified in task 1 above to use parameter(s) and argument(s)
+
+Task 3:
+--  In the funcEx2.py file, modify the code in the sub function to use  parameter(s), argument(s) and a return statement
+
+Task 4:
+--  In the funcEx1.py file, modify the code in the userName function, modified in task 1 above to use parameter(s) and argument(s)
+
+
+Further reading on function
+https://www.programiz.com/python-programming/function
+
+Stretch and challenge: complete the function exercises in the link provided below.
+https://www.practicepython.org/exercise/2014/12/27/24-draw-a-game-board.html

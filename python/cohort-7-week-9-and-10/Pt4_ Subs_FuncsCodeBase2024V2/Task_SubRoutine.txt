@@ -1,0 +1,36 @@
+"Modify/Make"
+
+Note: files for the tasks below are in the 1_subroutine folder
+To Do:
+
+Task 1:
+--Modify the subroutine in the sub1.py file to ask for address and interest"
+
+Task 2:
+-- Investigate  if __name__ == "__main__":'
+-- Copy and paste the code block above 'if __name__ == "__main__":' in any browser to investigate it use.
+-- Then add comment to explain, in your own words, why the 'if __name__ == "__main__":' syntax can be used in your program.
+
+
+Task 3(Knowledge Check):Linking existing knowledge with new knowledge
+-- What do you think is the equivalent of the python 'def' keyword in JavaScript?
+
+Task 4:
+-- Modify the code in the sub2.py file to use either subtraction or multiplication or division and change the subroutine name respectively
+-- Add comments to the modified code to explain your lines of code"
+
+Task 4:
+-- Modify the code the function definition user and userName in the subPara2.py file to use parameter(s) respectively
+-- Modify the function call user and userName in the subPara2.py file to use an argument when you call/invoke them respectively
+
+
+Task 5:
+-- Create a new file to call/invoke the following subroutine(s)/function below"
+--- subPara1
+--- subPara2
+
+Further reading on function
+https://www.programiz.com/python-programming/function
+
+Stretch and challenge: complete the function exercises in the link provided below.
+https://www.practicepython.org/exercise/2014/12/27/24-draw-a-game-board.html
