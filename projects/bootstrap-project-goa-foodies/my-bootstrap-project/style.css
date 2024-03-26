@@ -144,3 +144,12 @@ footer a:hover {
         font-size: 1.1rem;
     }
 }
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+}

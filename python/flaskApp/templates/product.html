@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<link rel="stylesheet" href="{{url_for('static',filename='css/prod.css')}}">
+
+<h1>This is the product page</h1>
+<p>lorem50</p>
+
+<img src="{{url_for('static', filename='images/test.png')}}" alt="">
+
+<button onclick="greetings()">Click</button>
+{% endblock content %}
