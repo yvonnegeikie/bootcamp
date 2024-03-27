@@ -1,0 +1,66 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 16px;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0 0 16px;
+    padding: 0;
+}
+
+/* Custom styles for the page */
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+a {
+    color: #008CBA;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* FilmFlix styles */
+.filmflix-title {
+    text-align: center;
+    margin: 24px 0;
+}
+
+.filmflix-iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.filmflix-iframe-container iframe {
+    border: 1px solid #ccc;
+}
+
+.login-message {
+    text-align: center;
+    margin: 16px 0;
+    color: #666;
+}
